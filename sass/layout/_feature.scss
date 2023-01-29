@@ -1,0 +1,33 @@
+.feature__list {
+    display: flex;
+  }
+  .feature__item {
+    flex-basis: calc((100% - 90px) / 4);
+    margin-right: 30px;
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+
+  .feature__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--background-features-icon);
+    border-radius: 4px;
+  }
+  .feature__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .feature__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  }
